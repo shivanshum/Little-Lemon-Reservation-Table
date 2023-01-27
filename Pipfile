@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "===4.0"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+djangorestframework = "*"
+django-filter = "*"
+markdown = "*"
+black = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
